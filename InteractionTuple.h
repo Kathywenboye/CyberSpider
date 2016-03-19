@@ -2,7 +2,7 @@
 //  InteractionTuple.hpp
 //  project4
 //
-//  Created by 文渊 叶 on 3/6/16.
+//  Created by wenboye on 3/6/16.
 //  Copyright © 2016 wenboye. All rights reserved.
 //
 
