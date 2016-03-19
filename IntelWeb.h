@@ -2,7 +2,7 @@
 //  IntelWeb.hpp
 //  project4
 //
-//  Created by 文渊 叶 on 3/6/16.
+//  Created by wenboye on 3/6/16.
 //  Copyright © 2016 wenboye. All rights reserved.
 //
 
@@ -37,7 +37,6 @@ private:
     DiskMultiMap m_diskmap2;
     int findPrevalence(const std::string& key);
     void addToInteractions(std::vector<InteractionTuple>& interactions, const InteractionTuple& I);
-    //void addToBadEntities(std::vector<std::string>& badEntitiesFound, const std::string &B);
 };
 bool compInteraction(const InteractionTuple& I1, const InteractionTuple& I2);
 
