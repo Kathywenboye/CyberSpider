@@ -2,7 +2,7 @@
 //  IntelWeb.cpp
 //  project4
 //
-//  Created by 文渊 叶 on 3/6/16.
+//  Created by wenboye on 3/6/16.
 //  Copyright © 2016 wenboye. All rights reserved.
 //
 
@@ -113,14 +113,7 @@ void IntelWeb::addToInteractions(std::vector<InteractionTuple>& interactions, co
     }
     interactions.push_back(I);
 }
-//void IntelWeb::addToBadEntities(std::vector<std::string>& badEntitiesFound, const std::string &B){
-//    for(int i=0;i<badEntitiesFound.size();i++){
-//        if(badEntitiesFound[i]==B){
-//            return;
-//        }
-//    }
-//    badEntitiesFound.push_back(B);
-//}
+
 bool compInteraction(const InteractionTuple& I1, const InteractionTuple& I2){
     if(I1.context<I2.context)
         return true;
